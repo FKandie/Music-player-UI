@@ -1,4 +1,5 @@
 # Music-player-UI
+This is a minimal and simple music player UI design.
 # Specifications
 - Create UI for music player including spinning image and song detail. 
 - Add play and pause navigation buttons
