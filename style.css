@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lemonada&family=Pacifico&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#fff;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    margin: 0 0;
+}
+
+.cover{
+    background: linear-gradient(45deg, #9ACD32, #006400); 
+    box-shadow: 41px -41px 82px #bbd0ed, -41px 41px 82px #d7f0ff;
+    height:450px;
+    width:300px;
+    margin:30px auto;
+    border-radius:4%;
+    
+}
+ .top-icons{
+    font-size:20px;
+    color:#333;
+    background-color:transparent ;
+    display:flex;
+    justify-content:space-between;
+}
+.angle i {
+padding:6px 13px;
+border-radius:50%;
+background: #fff;
+ box-shadow: 2px 2px 7px #93a4ba, -2px -2px 7px #ffffff;
+ margin-left:5px;
+ transition:.5s ease-in;
+    
+}
+
+
+.right .dot{
+    padding:6px 15px;
+}
+
+.right i {
+    padding:5.5px 10px;
+    border-radius:50%;
+    background:#fff;
+    box-shadow: 2px 2px 7px #93a4ba, -2px -2px 7px #ffffff;
+    margin-right:5px;
+    transition:.5s ease-in;
+    
+}
+
+.top-icons{
+    padding:10px 10px;
+}
+
+a{
+    color:#333;
+    text-decoration:none;
+}
+.right .slide{
+    padding:7px 9px;
+}
+
+.img img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    text-align:center;
+    box-shadow: 6px 6px 7px #93a4ba, -6px -6px 7px #ffffff;
+
+    
+}
+.img{
+    text-align:center;
+    margin-top:-8px;
+    animation:image 10s linear infinite ;
+    image-rendering:auto;
+
+}
+.img:hover{
+    animation-play-state:paused;
+}
+@keyframes image{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+
+
+
+h2{
+    margin-top:5px;
+    text-align:center;
+    color:#FFD700;
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Lemonada', cursive;
+
+    font-family: 'Pacifico', cursive;
+
+
+}
+
+h4{
+    text-align:center;
+    color:#F5F5F5;
+    margin-top:0px;
+}
+
+
+
+.middle-icon{
+    padding:0px 40px;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    font-size:20px;
+}
+
+.middle-icon i{
+    padding:10px 10px;
+    border-radius:50%;
+    background:#fff; 
+    box-shadow: 2px 2px 7px #93a4ba, -2px -2px 7px #ffffff;
+    margin-right:5px;
+    transition:.5s ease-in;
+    
+}
+
+.middle-icon div:hover, i:hover{
+    background:#55b9f3;
+    color:#fff;
+}
+
+.time{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 20px;
+    font-size:12px;
+}
+.dur{
+    width:100%;
+    height:5px;
+    background-color:rgba(255,255,255,0.4);
+    margin-top:6px;
+    border-radius:30px;
+    margin-left:5px;
+    margin-right:5px;
+    
+}
+.wid{
+    width:40%;
+    height:5px;
+    background:#55b9f3;
+    border-radius:30px;
+}
+.handle{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background-color:#55b9f3;
+    margin-top:-9px;
+    margin-left:70px;
+}
+
+.last-icons i{
+    padding:10px 12px;
+    border-radius:50%;
+    background:rgba(0,0,0,0.3); 
+    box-shadow: 2px 2px 7px #93a4ba, -2px -2px 7px #ffffff;
+    margin-right:5px;
+    transition:.5s ease-in;
+    color:#fff;
+    
+}
+
+.last-icons{
+    padding:0px 43px;
+    margin-top:0px;
+    display:flex;
+    justify-content:space-between;
+    font-size:20px;
+    margin-left:5px;
+}
+
+.last-icons .step{
+    padding:10px 14px;
+}
+
+
+.last-icons div:hover, i:hover{
+    background:#B22222;
+    color:#fff;
+}
